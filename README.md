@@ -1,0 +1,1 @@
+## Ukázky kódů ke školeníčku Node6
