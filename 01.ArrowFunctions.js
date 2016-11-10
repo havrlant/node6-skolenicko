@@ -1,5 +1,6 @@
 const add = (a, b) => a + b;
-console.log(add(2, 3));
+console.log(add(2, 3)); // 5
+
 
 
 const complicated = arr => {
@@ -11,4 +12,4 @@ const complicated = arr => {
 complicated([1, 2, 3]);
 
 
-
+[1, 2, 3].forEach(number => console.log(number));

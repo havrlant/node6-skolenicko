@@ -13,5 +13,5 @@ function MyClass() {
 }
 
 const myClass = new MyClass();
-console.log(myClass.oldMethod([1, 2, 3]));
-console.log(myClass.newMethod([1, 2, 3]));
+console.log(myClass.oldMethod([1, 2, 3])); // [ NaN, NaN, NaN ]
+console.log(myClass.newMethod([1, 2, 3])); // [ 10, 20, 30 ]
