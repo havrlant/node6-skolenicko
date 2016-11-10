@@ -1,6 +1,6 @@
 const PI = 3.1415;
 
-const person= {};
+const person = {};
 person.name = "Donald";
 
 console.log(PI);
