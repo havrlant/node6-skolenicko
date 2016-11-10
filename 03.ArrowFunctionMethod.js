@@ -14,6 +14,6 @@ const myClass = new MyClass();
 const oldMethod = myClass.oldMethod;
 const newMethod = myClass.newMethod;
 
-console.log(oldMethod());
-console.log(newMethod());
+console.log(oldMethod()); // undefined
+console.log(newMethod()); // 10
 

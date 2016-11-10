@@ -1,3 +1,29 @@
+// Old School Prototype Class
+function PrototypeShape(id, x, y) {
+    this.id = id;
+    this.move(x, y);
+}
+
+PrototypeShape.prototype.move = function (x, y) {
+    this.x = x;
+    this.y = y;
+};
+
+PrototypeShape.prototype._private_method_marked_by_underscore_bleeeeee = function () {
+    return private_method_using_external_function_bleeeeeee.call(this);
+};
+
+// static
+PrototypeShape.getType = function () {
+    return "ShapeType";
+};
+
+function private_method_using_external_function_bleeeeeee() {
+    return this.x;
+}
+
+
+
 // new ES6 style
 class NewShape {
     constructor (id, x, y) {
@@ -21,31 +47,6 @@ class NewShape {
 
 NewShape.prototype.anotherPublicMethod = function () {
     return "prototype";
-};
-
-function private_method_using_external_function_bleeeeeee() {
-    return this.x;
-}
-
-
-
-// Old School Prototype Class
-function PrototypeShape(id, x, y) {
-    this.id = id;
-    this.move(x, y);
-}
-
-PrototypeShape.prototype.move = function (x, y) {
-    this.x = x;
-    this.y = y;
-};
-
-PrototypeShape.prototype._private_method_marked_by_underscore_bleeeeee = function () {
-    return private_method_using_external_function_bleeeeeee.call(this);
-};
-
-PrototypeShape.getType = function () {
-    return "ShapeType";
 };
 
 

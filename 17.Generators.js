@@ -1,5 +1,3 @@
-"use strict"
-
 function* naturals(limit) {
 	for (let n = 1; n <= limit; n++) {
 		yield n;

@@ -7,7 +7,6 @@ function* naturals(limit) {
 }
 
 
-
 let sum = 0;
 for (let nat of naturals(100000000)) {
 	sum += nat; // Pohoda

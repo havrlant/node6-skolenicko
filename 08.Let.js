@@ -1,11 +1,11 @@
 // let example
 if (true) {
-    let hidden = 1;
-    var visible = 2;
+    var visible = 1;
+    let hidden = 2;
 }
 
+console.log(typeof visible, visible); // number 1
 console.log(typeof hidden); // undefined
-console.log(typeof visible, visible); // number 2
 
 
 for (let i = 0; i < 10; i ++) {
